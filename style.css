@@ -1,0 +1,72 @@
+h1.index_h1 {width: 100%;text-align: left;}
+table {width: 100%;}
+
+body {background-color: black;}
+
+tr.nav {font-size: large; color: white;}
+
+td.form {width: 20%;background-color:#FFC300;}
+form.form {text-align:center; vertical-align: middle;}
+td.imagen {width: 40%;background-color:#800000;text-align: center;}
+td.articulos {width: 40%;background-color:#FFC300;}
+
+h1.index_h1 {color: #800000;}
+table.index_table {background-color: gray;}
+div.index_header {background-color: black;}
+table.index_main {height: 400px;}
+h2.index_main {font-style: italic;text-align: center;}
+
+img { max-height:100%; max-width:100%;}
+
+div.text {text-align: center;color: white;}
+
+
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: #800000;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+div.noticias {width: 50%; margin: auto;}
+
+/* divs imagen articulos links */
+
+
+div.divimagen {
+    width: 25%;
+    height: auto;
+    float: left;
+}
+div.divarticulo {
+    width: 75%;
+    height: auto;
+    float: right;
+}
+
+footer {
+    background-color: black;
+    font-size: medium;
+    position: fixed;
+    bottom: 0;
+    color: white;
+}
