@@ -1,0 +1,138 @@
+/* Establece el color de fondo del cuerpo a negro. */
+body {
+    background-color: black;
+  }
+  
+  /* Establece el ancho del elemento h1 al 100% y la alineación del texto a la izquierda. */
+  h1.index_h1 {
+    width: 100%;
+    text-align: left;
+  }
+  
+  /* Establece el ancho del elemento table al 100%. */
+  table {
+    width: 100%;
+  }
+  
+  /* Establece el tamaño de fuente del elemento tr.nav a grande y el color a blanco. */
+  tr.nav {
+    font-size: large;
+    color: white;
+  }
+  
+  /* Establece el ancho del elemento td.form al 20%, el color de fondo a #FFC300 y la alineación del texto al centro. */
+  td.form {
+    width: 20%;
+    background-color: #FFC300;
+    text-align: center;
+  }
+  
+  /* Establece la alineación del texto del elemento form.form al centro y la alineación vertical a la mitad. */
+  form.form {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  /* Establece el ancho del elemento td.imagen al 40%, el color de fondo a #800000 y la alineación del texto al centro. */
+  td.imagen {
+    width: 40%;
+    background-color: #800000;
+    text-align: center;
+  }
+  
+  /* Establece el ancho del elemento td.articulos al 40%, el color de fondo a #FFC300 y la alineación del texto al centro. */
+  td.articulos {
+    width: 40%;
+    background-color: #FFC300;
+    text-align: center;
+  }
+  
+  /* Establece el color del elemento h1.index_h1 a #800000. */
+  h1.index_h1 {
+    color: #800000;
+  }
+  
+  /* Establece el color de fondo del elemento table.index_table a gris. */
+  table.index_table {
+    background-color: gray;
+  }
+  
+  /* Establece el color de fondo del elemento div.index_header a negro. */
+  div.index_header {
+    background-color: black;
+  }
+  
+  /* Establece la altura del elemento table.index_main a 400px. */
+  table.index_main {
+    height: 400px;
+  }
+  
+  /* Establece el estilo de fuente del elemento h2.index_main a cursiva y la alineación del texto al centro. */
+  h2.index_main {
+    font-style: italic;
+    text-align: center;
+  }
+  
+  /* Establece la altura máxima del elemento img al 100% y el ancho máximo al 100%. */
+  img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  /* Establece la alineación del texto del elemento div.text al centro y el color a blanco. */
+  div.text {
+    text-align: center;
+    color: white;
+  }
+  
+  /* Establece el color del elemento a a blanco, el color de fondo a transparente y la decoración del texto a ninguno. */
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  /* Establece el color del elemento a:visited a blanco, el color de fondo a transparente y la decoración del texto a ninguno. */
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  /* Establece el color del elemento a:hover a #800000, el color de fondo a transparente y la decoración del texto a subrayado. */
+  a:hover {
+    color: #800000;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  /* Establece el color del elemento a:active a amarillo, el color de fondo a transparente y la decoración del texto a subrayado. */
+  a:active {
+    color: yellow;
+    background-color: transparent
+    text-decoration: underline;
+  }
+
+div.noticias {width: 50%; margin: auto;}
+
+/* divs imagen articulos links */
+
+
+div.divimagen {
+    width: 25%;
+    height: auto;
+    float: left;
+}
+div.divarticulo {
+    width: 75%;
+    height: auto;
+    float: right;
+}
+
+footer {
+    background-color: black;
+    font-size: medium;
+    position: fixed;
+    bottom: 0;
+    color: white;
+}
