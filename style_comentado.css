@@ -109,30 +109,67 @@ body {
   /* Establece el color del elemento a:active a amarillo, el color de fondo a transparente y la decoración del texto a subrayado. */
   a:active {
     color: yellow;
-    background-color: transparent
+    background-color: transparent;
     text-decoration: underline;
   }
-
-div.noticias {width: 50%; margin: auto;}
-
-/* divs imagen articulos links */
-
-
-div.divimagen {
+  
+  /* Establece el ancho del contenedor de noticias al 50% y lo centra horizontalmente */
+  div.noticias {
+    width: 50%;
+    margin: auto;
+  }
+  
+  /* Establece el estilo de los contenedores de imagen y artículo */
+  div.divimagen {
     width: 25%;
     height: auto;
     float: left;
-}
-div.divarticulo {
+  }
+  
+  div.divarticulo {
     width: 75%;
     height: auto;
     float: right;
-}
-
-footer {
+  }
+  
+  /* Establece el estilo del pie de página */
+  footer {
     background-color: black;
     font-size: medium;
     position: fixed;
     bottom: 0;
     color: white;
-}
+  }
+  
+  /* Establece el estilo del contenedor de video */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  
+  .video-container iframe {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ticket-button {
+    display: inline-block;
+    background-color: white;
+    color: orange; /* Cambia el color del texto a naranja */
+    border: 2px solid orange; /* Cambia el color del borde a naranja */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .ticket-button:hover {
+    background-color: orange; /* Cambia el color de fondo a naranja */
+    color: white; /* Cambia el color del texto a blanco */
+    cursor: pointer;
+  }
