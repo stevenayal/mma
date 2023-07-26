@@ -97,26 +97,7 @@
             <button onclick="pauseAudio()">Pausar</button>
             <progress id="progressBar" value="0" max="100"></progress>
 
-        <script>
-            var audio = document.getElementById("myAudio");
-            var progressBar = document.getElementById("progressBar");
-
-             function playAudio() {
-             audio.play();
-             }
-
-             function pauseAudio() 
-             {
-                audio.pause();
-                }
-
-                audio.addEventListener("timeupdate", function() {
-                 var duration = audio.duration;
-                var currentTime = audio.currentTime;
-                var progress = (currentTime / duration) * 100;
-                progressBar.value = progress;
-            });
-        </script>
+            <script src="audio.js"></script>
             <p class="footer">&copy; 2023 Todo MMA - Todos los derechos reservados</p>
         </footer>
     </main>
