@@ -6,7 +6,7 @@ body {
   /* Establece el ancho del elemento h1 al 100% y la alineación del texto a la izquierda. */
   h1.index_h1 {
     width: 100%;
-    text-align: left;
+    display: table-footer-group;
   }
   
   /* Establece el ancho del elemento table al 100%. */
@@ -49,7 +49,7 @@ body {
   
   /* Establece el color del elemento h1.index_h1 a #800000. */
   h1.index_h1 {
-    color: #800000;
+    color: #ffffff;
   }
   
   /* Establece el color de fondo del elemento table.index_table a gris. */
@@ -125,6 +125,11 @@ body {
     height: auto;
     float: left;
   }
+  img.logocabecera {
+    width: 10%;
+    height: auto;
+    float: center;
+  }
   
   div.divarticulo {
     width: 75%;
@@ -184,7 +189,7 @@ body {
             h1 {
                 text-align: center;
                 padding: 30px 0;
-                background-color: #333;
+                background-color: #000000;
                 color: #fd0606;
                 margin: 0;
             }
