@@ -83,6 +83,7 @@ body {
   div.text {
     text-align: center;
     color: white;
+    font-size:large;
   }
   
   /* Establece el color del elemento a a blanco, el color de fondo a transparente y la decoración del texto a ninguno. */
@@ -115,6 +116,11 @@ body {
   
   /* Establece el ancho del contenedor de noticias al 50% y lo centra horizontalmente */
   div.noticias {
+    width: 50%;
+    margin: auto;
+  }
+  /* otorga formato al contenedor de artesmarciales */
+  div.artesmarc {
     width: 50%;
     margin: auto;
   }
