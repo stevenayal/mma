@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Todo MMA</title>
+    <link href="style_comentado.css" rel="stylesheet">
     <link rel="icon" type="image/jpg" href="logo.jpg">
-    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <div class="index_header">
@@ -26,8 +26,99 @@
     </header>
     </div>
     
-    <main>
-        
+        <main>
+            
+            <div class="text">
+                <h1>PROXIMOS EVENTOS</h1>
+                <P>MMA, UFC en Todo MMA</P>
+                <div class="EVENTOS">
+                    <!-- contenedor de los EVENTOS -->
+                    <div>
+                        <!-- EVENTOS -->
+                        <div class="video1">
+                            <!-- video1 -->
+                            <a href="">
+                              <div>
+                                <div class="video-container">
+                                  <iframe src="https://www.youtube.com/embed/UGJ8VeNsAKs" 
+                                      title="YouTube video player" frameborder="0" 
+                                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                      allowfullscreen>
+                                  </iframe>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                        <div class="evento1">
+                            <!-- evento1 -->
+                            <h2>
+                                Dustin Poirier vs Conor McGregor 2 | FREE FIGHT | UFC 291 <br> <br>
+                                Sintoniza el UFC 291 el 29 de julio a las 22:00 h (hora del este) y 19:00 h (hora del Pacífico).
+                                <br> <br>
+                                <a href="https://www.ticketmaster.com/event/1E005EB7B4A72D6E" class="ticket-button" target="_blank">Boletos</a>
+                                <span style="margin: 0 20px;"></span><!-- Agrega un espacio de 20 píxeles -->
+                                <a href="https://www.ufcespanol.com/latam/donde-ver" class="ticket-button" target="_blank">Donde Ver</a>
+
+                            </h2>
+                        </div>
+                        <div class="video2">
+                            <!-- video2 -->
+                            <a href=""><br> <br><br> <br><br> <br>
+                              <div>
+                                <div class="video-container">
+                                  <iframe src="https://www.youtube.com/embed/LPpqcvIlrhQ" 
+                                      title="YouTube video player" frameborder="0" 
+                                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                      allowfullscreen>
+                                  </iframe>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                        <div class="evento2">
+                            <!-- evento2 -->
+                            <h2>
+                                Nate Diaz vs Conor McGregor 1 | FREE FIGHT | UFC 279 <br> <br>
+                                Disfruta un poco del evento pasado donde Nate y McGregor lo dieron todo en el ring.
+                                <br> <br>
+                                <a href="https://www.ticketmaster.com/event/1E005EB7B4A72D6E" class="ticket-button" target="_blank">Boletos</a>
+                                <span style="margin: 0 20px;"></span><!-- Agrega un espacio de 20 píxeles -->
+                                <a href="https://www.ufcespanol.com/latam/donde-ver" class="ticket-button" target="_blank">Donde Ver</a>
+
+                            </h2>
+                        </div>
+                        
+                    </div>
+                </div>    
+
+        <footer class="index_footer">
+            <audio id="myAudio" src="musica_epica.mpeg"></audio>
+            <button onclick="playAudio()">Reproducir</button>
+            <button onclick="pauseAudio()">Pausar</button>
+            <progress id="progressBar" value="0" max="100"></progress>
+
+        <script>
+            var audio = document.getElementById("myAudio");
+            var progressBar = document.getElementById("progressBar");
+
+             function playAudio() {
+             audio.play();
+             }
+
+             function pauseAudio() 
+             {
+                audio.pause();
+                }
+
+                audio.addEventListener("timeupdate", function() {
+                 var duration = audio.duration;
+                var currentTime = audio.currentTime;
+                var progress = (currentTime / duration) * 100;
+                progressBar.value = progress;
+            });
+        </script>
+            <p class="footer">&copy; 2023 Todo MMA - Todos los derechos reservados</p>
+        </footer>
     </main>
     
 
