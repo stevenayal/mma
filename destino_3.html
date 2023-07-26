@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Todo MMA</title>
-    <link rel="icon" type="image/jpg" href="logo.jpg">
-    <link href="style.css" rel="stylesheet">
+    <link href="style_comentado.css" rel="stylesheet">
 </head>
 <body>
     <div class="index_header">
@@ -17,7 +16,7 @@
                 <tr class="nav">
                     <td><ul><li><a href="index.html">Inicio</a></li></ul></td>
                     <td><ul><li><a href="destino_1.html">Noticias</a></li></ul></td>
-                    <td><ul><li><a href="destino_2.html">Próximos Eventos</a></li></ul></td>
+                    <td><ul><li><a href="destino_2.html">Proximos Eventos</a></li></ul></td>
                     <td><ul><li><a href="destino_3.html">Nuestro Staff</a></li></ul></td>
                     <td><ul><li><a href="destino_4.html">Trabaja con Nosotros</a></li></ul></td>
                 </tr>
@@ -25,42 +24,55 @@
         </nav>
     </header>
     </div>
-    
-    <main>
-        
-    </main>
-    
 
+  
+    <head>
+        <title>Periodistas destacados del MMA</title>
+    </head>
+    <body>
+        <h1>Periodistas destacados del MMA</h1>
+        <div class="container">
+            <div class="journalist">
+                <img src="ariel_helwani.jpg" alt="Jose Castillo">
+                <div class="journalist-content">
+                    <h2>Jose Castillo</h2>
+                    <p>Jose Castillo es un periodista canadiense ampliamente reconocido en el mundo del MMA.</p>
+                </div>
+            </div>
+            <div class="journalist">
+                <img src="john_morgan.jpg" alt="Gerardo Vicente">
+                <div class="journalist-content">
+                    <h2>Gerardo Vicente</h2>
+                    <p>Gerardo Vicente es un periodista estadounidense conocido por su cobertura dedicada de las MMA.</p>
+                </div>
+            </div>
+            <div class="journalist">
+                <img src="brett_okamoto.jpg" alt="Steven Ayala">
+                <div class="journalist-content">
+                    <h2>Steven Ayala</h2>
+                    <p>Steven Ayala es un destacado periodista deportivo que ha cubierto numerosos eventos de MMA.</p>
+                </div>
+            </div>
+            <div class="journalist">
+                <img src="guilherme_cruz.jpg" alt="Claudio Areco">
+                <div class="journalist-content">
+                    <h2>Claudio Areco</h2>
+                    <p>Claudio Areco es un periodista brasileño reconocido por su cobertura del MMA en Brasil y a nivel internacional.</p>
+                </div>
+            </div>
+            <div class="journalist">
+                <img src="karim_zidan.jpg" alt="Karim Zidan">
+                <div class="journalist-content">
+                    <h2>Karim Zidan</h2>
+                    <p>Karim Zidan es un periodista especializado en MMA y geopolítica, conocido por su enfoque crítico.</p>
+                </div>
+            </div>
+        </div>
+    </body>
     <footer class="index_footer">
-        <footer class="index_footer">
-            <audio id="myAudio" src="periodista.mpeg"></audio>
-            <button onclick="playAudio()">Reproducir</button>
-            <button onclick="pauseAudio()">Pausar</button>
-            <progress id="progressBar" value="0" max="100"></progress>
-
-        <script>
-            var audio = document.getElementById("myAudio");
-            var progressBar = document.getElementById("progressBar");
-
-             function playAudio() {
-             audio.play();
-             }
-
-             function pauseAudio() 
-             {
-                audio.pause();
-                }
-
-                audio.addEventListener("timeupdate", function() {
-                 var duration = audio.duration;
-                var currentTime = audio.currentTime;
-                var progress = (currentTime / duration) * 100;
-                progressBar.value = progress;
-            });
-        </script>
         <p class="footer">&copy; 2023 Todo MMA - Todos los derechos reservados</p>
     </footer>
 
 </body>
 
-</html>
+</html> 
